@@ -12,6 +12,8 @@ const Home = () => {
       <center>
         <h1 className="home-head">Welcome To My Blog Site</h1>
       </center>
+      <p className="tech">Click For More Tech Blogs</p>
+      <p className="food2">Click For More Food Blogs</p>
       <div className="top-div">
         <div className="box-div">
           <NavLink className="link" to={`/category/bollywood`}>
@@ -37,7 +39,7 @@ const Home = () => {
       </div>
 
       <div className="middle-div">
-        <h2>The Latest</h2>
+        <h2 className="bold">The Latest</h2>
         <div className="line-highlight"></div>
         <div className="div-1">
           {data
@@ -46,7 +48,7 @@ const Home = () => {
               (data, index) =>
                 index < 3 && (
                   <NavLink className="link" to={`/bollywood/${data.id}`}>
-                    <div className="div-1-inner" key={index}>
+                    <div id="latest-div" className="div-1-inner" key={index}>
                       <img src={data.image} alt="cover" className="img-1" />
                       <p className="div-1-title">{data.title}</p>
                       <p className="div-1-date">
@@ -77,7 +79,7 @@ const Home = () => {
                       className="img-bolly"
                     />
                     <h5 id="home-title1">{data.title}</h5>
-                    <p className="blog-desc">{data.description}</p>
+                    <p id='mob-desc5' className="blog-desc">{data.description}</p>
                     <p id="blog-date1" className="below-date">
                       <strong>{data.category}</strong> <br />
                       {data.date}

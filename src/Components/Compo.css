@@ -130,7 +130,7 @@
 }
 
 .nav-link:nth-child(1):hover ~ #indicator {
-  left: 6%;
+  left: 5%;
   opacity: 1;
   width: 85px;
   transition: 0.4s ease-out;
@@ -138,36 +138,36 @@
 }
 
 .nav-link:nth-child(2):hover ~ #indicator {
-  left: 21%;
+  left: 20.5%;
   opacity: 1;
-  width: 115px;
+  width: 118px;
   transition: 0.4s ease-out;
   background: linear-gradient(130deg, #00e2ff, #89ff00);
 }
 
 .nav-link:nth-child(3):hover ~ #indicator {
-  left: 37.2%;
+  left: 36.5%;
   opacity: 1;
   width: 125px;
   transition: 0.4s ease-out;
   background: linear-gradient(130deg, purple, rgb(255, 5, 89));
 }
 .nav-link:nth-child(4):hover ~ #indicator {
-  left: 54.2%;
+  left: 53.3%;
   opacity: 1;
   width: 125px;
   transition: 0.4s ease-out;
   background: linear-gradient(130deg, rgb(254, 92, 4), rgb(223, 234, 62));
 }
 .nav-link:nth-child(5):hover ~ #indicator {
-  left: 72.2%;
+  left: 71.3%;
   opacity: 1;
   width: 90px;
   transition: 0.4s ease-out;
   background: linear-gradient(130deg, rgb(46, 203, 190), rgb(89, 33, 142));
 }
 .nav-link:nth-child(6):hover ~ #indicator {
-  left: 89.8%;
+  left: 89%;
   opacity: 1;
   width: 70px;
   transition: 0.4s ease-out;
@@ -235,8 +235,11 @@
 }
 .bottom-div {
   width: 80vw;
-
-  height: 200px;
+  border-radius: 20px;
+  -webkit-box-shadow: 11px 10px 17px -8px rgba(0,0,0,0.54);
+  -moz-box-shadow: 11px 10px 17px -8px rgba(0,0,0,0.54);
+  box-shadow: 11px 10px 17px -8px rgba(0,0,0,0.54);
+  height: 250px;
   position: relative;
   margin: 50px 0px 120px 50px;
 }
@@ -254,14 +257,15 @@
 .bottom-title {
   position: absolute;
   top: 10px;
-  left: 36vw;
+  left: 34vw;
 }
 .bottom-desc {
   height: 120px;
   position: absolute;
+  width: 44vw;
   margin-top: 20px;
   top: 60px;
-  left: 36vw;
+  left: 34vw;
   font-family: "Oswald";
   font-size: 1.2em;
   overflow: hidden;
@@ -270,7 +274,7 @@
   width: 80vw;
   height: 1.5px;
   background-color: #484848;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .nav-hr {
   display: none;
@@ -310,7 +314,7 @@
   .bottom-div {
     width: 95vw;
     height: 450px;
-
+    background-color: #FBF2CF;
     position: relative;
     margin: 50px 0px 120px 20px;
   }
@@ -320,22 +324,27 @@
     background-color: #484848;
     margin-top: 310px;
   }
+  
   .bottom-img {
     width: 95vw;
     height: 200px;
   }
   .bottom-title {
+    width: 90vw;
+    height: 70px;
+    overflow: hidden;
     font-size: 1.1em;
     position: absolute;
     top: 220px;
-    left: 0vw;
+    left: 2vw;
   }
   .bottom-desc {
+    width: 90vw;
     height: 120px;
     position: absolute;
     margin-top: 20px;
     top: 290px;
-    left: 0vw;
+    left: 2vw;
     font-family: "Oswald";
     font-size: 1em;
     overflow: hidden;
@@ -477,4 +486,6 @@
   #menuToggle input:checked > body{
     filter: blur(5px);
   }
+
+  
 }

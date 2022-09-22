@@ -497,7 +497,7 @@ const Data = (props) => {
         },
         {
             id: 43,
-            image: "https://www.wellandgood.com/wp-content/uploads/2022/06/AMAZING-5-Minute-Vegan-Cashew-Queso-1-blender-5-minutes-7-ingredients-Perfect-for-chips-nachos-taco-night-and-more-vegan-glutenfree-recipe-sauce-queso-minimalistbaker-9.jpeg",
+            image: "https://minimalistbaker.com/wp-content/uploads/2018/12/5-Minute-Queso-SQUARE.jpg",
             title: "This 5-Minute Vegan Cashew Queso Dip Is Perfect for Poolside Snacking (and It’s Packed With Bone Health Benefits)",
             description:`Let’s play a game of word association. What’s the first thing that comes to mind when you hear the words "tortilla chips"? Guac? Although we do love a good bowl of creamy guacamole, we’re actually talking about the golden, gooey, and delicious dip that pairs just as well—if not better—with cantina-style crunchy tortilla chips. Yes, we’re talking about queso.`,
             body:`Let’s play a game of word association. What’s the first thing that comes to mind when you hear the words "tortilla chips"? Guac? Although we do love a good bowl of creamy guacamole, we’re actually talking about the golden, gooey, and delicious dip that pairs just as well—if not better—with cantina-style crunchy tortilla chips. Yes, we’re talking about queso.
