@@ -62,7 +62,7 @@ const Home = () => {
         </div>
         <div className="hr1 mob-hr"></div>
       </div>
-      <div className="mid-2">
+      <div id="mid-2s" className="mid-2">
         <h2>Latest Articles</h2>
         <div className="line-highlight line2"></div>
         {data

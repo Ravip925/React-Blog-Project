@@ -70,11 +70,13 @@ aside{
     margin-top: 40px;
 }
 .h2-1{
+    font-family: 'Alfa Slab One';
     position: absolute;
     top: 215px;
     left: 60px;
 }
 .h2-2{
+    font-family: 'Alfa Slab One';
     position: absolute;
     top: -35px;
     left: 0;
@@ -146,14 +148,21 @@ aside{
     body{
         height: 100%;
         overflow-x: hidden;
+        background-size: cover;
     }
     aside,.ad{
         display: none;
     }
+    #footer-home{
+        display: block;
+        width: 108vw;
+        margin-top: 100px;
+    }
     .h2-1{
+        font-family: 'Alfa Slab One';
         position: absolute;
         top: 160px;
-        left: 5vw;
+        left: 6vw;
     }
     .hr-1{
         width: 180px;
@@ -164,7 +173,7 @@ aside{
         border: none;
         position: absolute;
         top: 185px;
-        left: 5vw;
+        left: 6vw;
     }
     .line-div{
         width: 95vw;
@@ -176,6 +185,7 @@ aside{
     .bolly-page{
         width: 96vw;
         height: 500px;
+        margin-left: 6vw;
         
     }
     .img-bolly{
@@ -185,8 +195,9 @@ aside{
         margin-top: 10px;
     }
     #bolly-h5{
-        width: 95vw;
+        width: 90vw;
         font-size: 1.1em;
+        font-weight: bold;
         position: absolute;
         top: 230px;
         left: 10px;
@@ -203,7 +214,7 @@ aside{
         margin-top: 10px;
         position: absolute;
         top: 295px;
-        left: 2vw; 
+        left: 2.5vw; 
     }
     .below-date{
         position: absolute;
