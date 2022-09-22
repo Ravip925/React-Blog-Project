@@ -296,6 +296,8 @@
     background-color: #15062c;
   }
   #detail-title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     width: 93vw;
     margin-left: 20px;
     text-align: start;
@@ -335,6 +337,7 @@
     width: 90vw;
     height: 70px;
     overflow: hidden;
+    font-weight: bold;
     font-size: 1.1em;
     position: absolute;
     top: 220px;
