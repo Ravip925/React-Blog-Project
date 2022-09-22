@@ -378,8 +378,9 @@
         margin-top: 15px;
     }
     #home-title1{
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         width: 83vw;
         height: 85px;
@@ -402,6 +403,7 @@
         left: 4vw;
     }
     #bottom-hr1{
+        background-color: black;
         margin: 0px 0 0 0px;
         width: 90vw;
     }

@@ -325,7 +325,7 @@
   .bottom-hrLine {
     width: 95vw;
     height: 1.5px;
-    background-color: #484848;
+    background-color: #000000;
     margin-top: 310px;
   }
   
@@ -338,6 +338,7 @@
     height: 70px;
     overflow: hidden;
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1em;
     position: absolute;
     top: 220px;
@@ -355,7 +356,10 @@
     overflow: hidden;
   }
   .bottom-h2{
+    width: 92vw;
+    font-size: 1.3em;
     margin-left: 25px;
+    font-family: 'Alfa Slab One';
   }
 
  
