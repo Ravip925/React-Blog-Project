@@ -15,7 +15,7 @@ const Data = (props) => {
             date: "September 18, 2022"
         },
         {
-            id: 2,
+            id: 11,
             image: "https://filmfare.wwmindia.com/content/2022/sep/saitamhankar31663584318.jpg",
             title: "Sai Tamhankar and Emraan Hashmi come on board for Tejas Deoskar next - Ground Zero",
             description: "Tejas Deoskar's next Ground Zero is currently being shot in Kashmir which has Emraan Hashmi and Sai Tamhankar in the lead along with Zoya Hussain.",
@@ -27,7 +27,7 @@ const Data = (props) => {
         },
         
         {
-            id: 3,
+            id: 22,
             image: "https://filmfare.wwmindia.com/content/2022/sep/kartikaaryan31662358687.jpg",
             title: "Kartik Aaryan to star in Aashiqui 3. Shares first look",
             description: 'Kartik Aaryan has been making headlines for all the right reasons. The actor has now announced that he is set to star in Aashiqui 3. Directed by Anurag Basu, the film is the third instalment of Aashiqui.',
@@ -40,7 +40,7 @@ const Data = (props) => {
             date: "September 14, 2022"
         },
         {
-            id: 4,
+            id: 32,
             image: "https://www.filmfare.com/media/content/2022/sep/shahrukhkhan41663157014.jpg",
             title: "Ayan Mukerji hints there might be a Brahmastra spin-off starring Shah Rukh Khan",
             description: "Brahmastra, one of Ayan Mukerji's most costly films, is among the most expensive works of Indian cinema. The movie, which had a whopping 400 crore budget, featured Ranbir Kapoor, Alia Bhatt, Amitabh Bachchan, Mouni Roy, and Nagarjuna in significant parts. But Shah Rukh Khan's presence generated a lot of excitement among the audience, and now everyone is demanding a spin-off!",
@@ -53,7 +53,7 @@ const Data = (props) => {
             date: "September 13, 2022"
         },
         {
-            id: 5,
+            id: 41,
             image: "https://www.filmfare.com/media/content/2022/sep/shabanaazmi41663573392.jpg",
             title: "Inside Shabana Azmis Starry Birthday Party. See Pics:",
             description: "On Sunday, Shabana Azmi turned 72. The veteran actress celebrated her birthday with her family and close friends and it was indeed a star-studded party. The get-together was attended by Tabu, Zoya Akhtar, Anil Kapoor, Dia Mirza, Farah Khan, Manish Malhotra, and others.",
@@ -66,7 +66,7 @@ const Data = (props) => {
             date: "September 12, 2022"
         },
         {
-            id: 6,
+            id: 15,
             image: "https://www.filmfare.com/media/content/2022/sep/priyankachoprajonas41663571390.jpg",
             title: "Priyanka Chopra Jonas Offers A Glimpse Of Nick Jonas Birthday. Shares Emotional Note",
             description: "Nick Jonas celebrated his 30th birthday on September 16. His birthday bash took place in Arizona and it was hosted by his actress-wife Priyanka Chopra Jonas. They were joined by their close friends and family including Joe, Kevin and Frankie Jonas.",
@@ -77,7 +77,7 @@ const Data = (props) => {
             date: "September 11, 2022"
         },
         {
-            id: 7,
+            id: 25,
             image: "https://www.filmfare.com/media/content/2022/sep/norafatehi41663326293.jpg",
             title: "Sidharth Malhotra and Nora Fatehi raise the temperature in their latest song Manike from Thank God",
             description: "The song  Manike Maga Hithe by Yohani Diloka who is a Sri-Lankan singer went viral on social media in no time because of its catchy tunes. As the trend these days follows remaking trending songs to be featured in films, Sidharth Malhotra's next - Thank God had their first song - Manike released which features him along with the dancing queen - Nora Fatehi.",
@@ -88,7 +88,7 @@ const Data = (props) => {
             date: "September 5, 2022"
         },
         {
-            id: 8,
+            id: 35,
             image: "https://www.filmfare.com/media/content/2022/sep/ranbir-kapoor-41663244499.jpg",
             title: "Ranbir Kapoor And Ayan Mukerji Perform Puja At Somnath Temple Post Brahmastraâs Success",
             description: "It's been a week since Ayan Mukerji’s Brahmastra starring Alia Bhatt and Ranbir Kapoor released, and the response has been overwhelming to say the least. The movie has been on a roll at the box office, and has grossed Rs 285 crore worldwide and is on course to touch the 300 crore milestone in its first week.",
@@ -100,7 +100,7 @@ const Data = (props) => {
             date: "September 15, 2022"
         },
         {
-            id: 9,
+            id: 45,
             image: "https://filmfare.wwmindia.com/content/2022/sep/amitabh-farhan-ranveer-41663652559.jpg",
             title: "Farhan Akhtar on bringing Shah Rukh Khan, Ranveer Singh, and Amitabh Bachchan together for Don 3",
             description: "There have been a lot of speculations being made ever since rumours started floating about Farhan Akhtar working on the script for Don 3. As per an exclusive report on ET Times - it was said that the film was being planned to keep the original don - Amitabh Bachchan and Shah Rukh Khan in mind.",
@@ -112,7 +112,7 @@ const Data = (props) => {
             date: "September 16, 2022"
         },
         {
-            id: 10,
+            id: 49,
             image: "https://filmfare.wwmindia.com/content/2022/sep/akshaykumar121662710494.jpg",
             title: "Decoding Akshay Kumar: We break down the evolution of Khiladi Kumar on his birthday",
             description: "Akshay Kumar has demonstrated over the course of a 30-year career that he is the undeniable superstar of the Hindi film industry driven by perseverance, focus, and dedication. The actor has a huge fan base that supports him not only in his films but also in all his efforts to promote various causes.",
@@ -129,7 +129,7 @@ const Data = (props) => {
             date: "September 17, 2022"
         },
         {
-            id: 11,
+            id: 2,
             image: "https://cdn.vox-cdn.com/thumbor/Q49NC4RoLHL09dhkbcIYep5Fjd4=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/71388804/226270_iPHONE_14_PHO_akrales_0724.0.jpg",
             title: 'Apple’s fixing the iPhone 14 Pro’s camera shake',
             description: "Apple will release a software update to fix an issue with the iPhone 14 Pro and Pro Max where using the camera in third-party apps like Snapchat, Instagram, or TikTok would lead to a shaking image and grinding or buzzing noises coming from the camera bump.",
@@ -141,7 +141,7 @@ const Data = (props) => {
             date: "September 19, 2022"
         },
         {
-            id: 12,
+            id: 27,
             image: "https://cdn.vox-cdn.com/thumbor/ooV4bAajGYDhSBWW21ekwD-diuY=/0x0:2040x1360/1310x873/cdn.vox-cdn.com/uploads/chorus_image/image/71389829/vpavic_4275_20201030_0033.0.jpg",
             title: 'Microsoft eased up on one DRM hurdle for disc games on Xbox',
             description: "Microsoft is making it easier to play games on your Xbox Series X, even if it’s offline — as of the 2208 update released earlier this month, you won’t be forced to do an online compatibility check to play a game from an Xbox One disc (via Windows Central). Instead, you can just pop the disc in, install the game, and play; no internet connection required.",
@@ -168,7 +168,7 @@ const Data = (props) => {
             date: "September 10, 2022"
         },
         {
-            id: 15,
+            id: 6,
             image: "https://techcrunch.com/wp-content/uploads/2022/09/07edb091bb329145ee3f3f01476adb40acc6457b.jpg?w=711",
             title: "Rockstar confirms gigantic 'Grand Theft Auto VI' leak",
             description:'That purported Grand Theft Auto VI leak appears to be real. Rockstar Games has confirmed the authenticity of the leak in a tweet, noting that a hacker stole confidential data including "early development footage" of the next Grand Theft Auto title.',
@@ -252,7 +252,7 @@ const Data = (props) => {
             date: "September 19, 2022"
         },
         {
-            id: 22,
+            id: 3,
             image: "https://i.guim.co.uk/img/media/3beb74f5e776fe46dc1f073f5e65695df4e32b1c/0_44_2000_1199/master/2000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=11a3a97ac32add2cf450c84dc0ce94d9",
             title: "Spielberg’s The Fabelmans wins Toronto film festival People’s Choice award",
             description:`Director’s most autobiographical film to date picks up audience prize generally seen as indicator of awards success to come. Steven Spielberg’s new film The Fabelmans has won the Toronto international film festival’s People’s Choice award, long regarded in the film industry as a key indicator of awards success over the next few months.`,
@@ -287,7 +287,7 @@ const Data = (props) => {
             date: "September 18, 2022"
         },
         {
-            id: 25,
+            id: 7,
             image: "https://www.indiewire.com/wp-content/uploads/2022/04/Screen-Shot-2022-04-12-at-1.43.00-PM.png",
             title: "Top Gun: Maverick’ Shares #1 VOD Glory in Fourth Week with Two Unlikely Contenders",
             description:`So much for the anticipated lengthy #1 run for “Top Gun: Maverick” (Paramount/$19.99). In its fourth week of VOD availability, the film is down to leading just one of the three charts (Google Play) we follow weekly. Surprising interest for “Beast” (Universal/$19.99) saw the modest grossing ($31 million) horror film rise to head Vudu’s revenue-based chart its second week out, while “Where the Crawdads Sing” (Sony/$5.99) was boosted by an early price reduction, including leading at iTunes.`,
@@ -309,7 +309,7 @@ const Data = (props) => {
             date: "September 20, 2022"
         },
         {
-            id: 27,
+            id: 12,
             image: "https://www.indiewire.com/wp-content/uploads/2022/08/Banshees-IWExclu.jpg",
             title: "Fall Festival 2022 Standouts: The 15 Best Films from Venice, TIFF, and Telluride",
             description:`With the first flush of fall festivals behind us — we’re talking the triple whammy of Venice, Telluride, and Toronto — and the New York Film Festival just on the horizon, we’re taking stock of the best films of the circuit so far.`,
@@ -367,7 +367,7 @@ const Data = (props) => {
             date: "September 15, 2022"
         },
         {
-            id: 32,
+            id: 4,
             image: "https://www.muscleandfitness.com/wp-content/uploads/2021/06/Actor-and-creater-of-the-fitness-app-Centr-Power-App-Chris-Hemsworth-working-out-with-a-dumbbell-row-exercise.jpg?quality=86&strip=all",
             title: "Actor Chris Hemsworth Issued A Five-Round, 50-Rep Full-Body Workout Challenge",
             description:`Ever since he entered the public eye as an actor, Chris Hemsworth has usually made it a point to keep up with his strength training and overall fitness. Between his film work, Hemsworth has spent some of his recent time promoting his workout application, Centr — which he started in 2019, according to an interview with Bloomberg.`,
@@ -405,7 +405,7 @@ const Data = (props) => {
             date: "September 18, 2022"
         },
         {
-            id: 35,
+            id: 8,
             image: "https://www.wellandgood.com/wp-content/uploads/2022/09/TOTMC-16-Minute-Afro-Dance-Combo-620x359.jpg",
             title: "Why Lunge When You Can Vibe? This Afro Dance Combo Will Give You a Physical and Emotional Boost",
             description:`The final eight counts of this Afro dance combo "is all about vibes,” says instructor Kiné Camara. "It's all about having fun, it's all about that celebration moment." It’s also a pulsating lunge with core, back, and arm activation. But, really, who gives a hoot about that when the vibes are so strong?`,
@@ -473,7 +473,7 @@ const Data = (props) => {
             date: "September 12, 2022"
         },
         {
-            id: 41,
+            id: 5,
             image: "https://www.wellandgood.com/wp-content/uploads/2022/09/hash-brown.png",
             title: "This 2-Ingredient Heart-Healthy Avocado Hash Brown Recipe Is Basically Avocado Toast 2.0",
             description:`It seems like when it comes to viral TikTok recipes, the wisdom of the crowd always proves victorious. After all, the masses weren’t wrong when it came to obsessing over delicious internet-famous dishes like cowboy caviar and baked feta pasta. They’re still a 10 out of 10 for us.`,
@@ -519,7 +519,7 @@ const Data = (props) => {
             date: "September 14, 2022"
         },
         {
-            id: 45,
+            id: 9,
             image: "https://www.wellandgood.com/wp-content/uploads/2022/07/Stocksy_txpeb356070YTT300_Small_2103720.jpg",
             title: "Mexican Tajín Seasoning Packs Major Anti-Inflammatory Benefits ",
             description:`Everything tastes 100 times better with just a little sprinkle of Tajín. This Mexican seasoning—made from a perfectly-balanced blend of dried red chilis, salt, and dehydrated lime juice—adds the perfect amount of saltiness, zestiness, and spiciness to anything from fresh fruit and corn to tacos, ice pops, tortilla chips, and margaritas.`,
@@ -563,7 +563,7 @@ const Data = (props) => {
             date: "September 10, 2022"
         },
         {
-            id: 49,
+            id: 10,
             image: "https://www.wellandgood.com/wp-content/uploads/2022/08/irish-moss-2.png",
             title: "Are Those Buzzy Sea Moss Smoothies a Gift from the Gods of Gut Health or Way Overhyped?",
             description:`Just a few years ago, the thought of adding a heaping pile of kale, spinach, or even tomatoes to a smoothie recipe might have instantly triggered your internal ick factor. In the early 2000s, my go-to smoothies were exclusively limited to banana and strawberry combinations like my ride-or-die Jamba Juice order: The 16-ounce Razzmatazz with extra strawberries, please. `,

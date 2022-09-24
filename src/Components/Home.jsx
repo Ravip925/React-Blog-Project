@@ -6,7 +6,8 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [data] = useContext(store);
-
+  const x = [6,7,8,9];
+  const y = [10,11,12];
   return (
     <div>
       <center>
@@ -43,7 +44,7 @@ const Home = () => {
         <div className="line-highlight"></div>
         <div className="div-1">
           {data
-            .filter((data) => data.category === "Bollywood")
+            .filter((data) => data.id <4)
             .map(
               (data, index) =>
                 index < 3 && (
@@ -66,7 +67,7 @@ const Home = () => {
         <h2>Latest Articles</h2>
         <div className="line-highlight line2"></div>
         {data
-          .filter((data) => data.category === "Food")
+          .filter((data) => x.includes(data.id))
           .map(
             (data, index) =>
               index < 4 && (
@@ -94,7 +95,7 @@ const Home = () => {
           <h2 id="side-h2">Top Stories</h2>
           <div id="line3"></div>
           {data
-            .filter((data) => data.category === "Fitness")
+            .filter((data) => y.includes(data.id))
             .map(
               (data, index) =>
                 index < 3 && (

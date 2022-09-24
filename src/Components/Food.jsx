@@ -8,6 +8,7 @@ import { useLayoutEffect } from "react";
 
 const Food = () => {
   const [data] = useContext(store);
+  const x =[14,30,35,45,5];
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -36,7 +37,7 @@ const Food = () => {
         <h2 className="h2-2">Top Stories</h2>
         <hr className="hr-2" />
         {data
-          .filter((data) => data.category === "Fitness")
+          .filter((data) => x.includes(data.id))
           .map(
             (data, index) =>
               index < 5 && (
