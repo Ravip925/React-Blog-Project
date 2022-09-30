@@ -24,6 +24,8 @@ function App() {
           <Route path="/category/hollywood" element={<Hollywood />} />
           <Route path="/category/fitness" element={<Fitness />} />
           <Route path="/category/food" element={<Food />} />
+
+          
           <Route path="/bollywood/:id" element={<BlogDetail />} />
           <Route path="/technology/:id" element={<BlogDetail />} />
           <Route path="/hollywood/:id" element={<BlogDetail />} />

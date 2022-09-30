@@ -5,11 +5,10 @@ import "./Bollywood.css";
 import { store } from "./Data";
 import { useLayoutEffect } from "react";
 
-
 const Bollywood = () => {
   const [data] = useContext(store);
 
-  const x = [10,20,30,40,50];
+  const x = [10, 20, 30, 40, 50];
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -34,7 +33,7 @@ const Bollywood = () => {
           </div>
         ))}
 
-      <aside>
+      <aside id="aside-b">
         <h2 className="h2-2">Top Stories</h2>
         <hr className="hr-2" />
         {data
@@ -59,7 +58,7 @@ const Bollywood = () => {
           <strong>Advertisement</strong>
         </div>
       </aside>
-      <div id="footer-home" className="footer">
+      <div id="footer-page" className="footer">
         <small>Copyright &copy; Ravichandra Patil</small>
       </div>
     </div>

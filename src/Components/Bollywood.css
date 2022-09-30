@@ -1,4 +1,6 @@
-
+#main{
+    margin-top: 125px;
+}
 .bolly-page{
     position: relative;
     background-color: rgb(250, 215, 215);
@@ -23,6 +25,9 @@ aside{
     top: 250px;
     right: 3.5vw;
 
+}
+#aside-b{
+    top: 275px;
 }
 .aside-div{
     height: 220px;
@@ -72,13 +77,13 @@ aside{
 .h2-1{
     font-family: 'Alfa Slab One';
     position: absolute;
-    top: 215px;
+    top: 235px;
     left: 60px;
 }
 .h2-2{
     font-family: 'Alfa Slab One';
     position: absolute;
-    top: -35px;
+    top: -40px;
     left: 0;
 }
 .hr-1{
@@ -89,7 +94,7 @@ aside{
     opacity: 1;
     border: none;
     position: absolute;
-    top: 240px;
+    top: 260px;
     left: 60px;
 }
 .hr-2{
@@ -100,7 +105,7 @@ aside{
     border: none;
     opacity: 1;
     position: absolute;
-    top: -10px;
+    top: -15px;
     left: 0;
 }
 .blog-desc{
@@ -141,6 +146,9 @@ aside{
     background-position: center;
     
 }
+#footer-page{
+    margin-top: 100px;
+}
 
 
 @media screen and (max-width: 480px)
@@ -153,7 +161,7 @@ aside{
     aside,.ad{
         display: none;
     }
-    #footer-home{
+    #footer-page{
         display: block;
         width: 108vw;
         margin-top: 100px;

@@ -22,6 +22,8 @@ const NavBar = () => {
         <div id="indicator"></div>
       </div>
 
+
+
       <div className="nav">
         <nav className='slideNav' role="navigation">
           <div id="menuToggle">

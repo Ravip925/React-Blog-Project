@@ -6,8 +6,10 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   const [data] = useContext(store);
-  const x = [6,7,8,9];
-  const y = [10,11,12];
+
+  const x = [6, 7, 8, 9];
+  const y = [10, 11, 12];
+
   return (
     <div>
       <center>
@@ -37,6 +39,7 @@ const Home = () => {
         <NavLink className="link" to={`/category/food`}>
           <div className="side2"></div>
         </NavLink>
+      <div className="hr0"/>
       </div>
 
       <div className="middle-div">
@@ -44,7 +47,7 @@ const Home = () => {
         <div className="line-highlight"></div>
         <div className="div-1">
           {data
-            .filter((data) => data.id <4)
+            .filter((data) => data.id < 4)
             .map(
               (data, index) =>
                 index < 3 && (
@@ -63,6 +66,7 @@ const Home = () => {
         </div>
         <div className="hr1 mob-hr"></div>
       </div>
+
       <div id="mid-2s" className="mid-2">
         <h2>Latest Articles</h2>
         <div className="line-highlight line2"></div>
@@ -80,7 +84,9 @@ const Home = () => {
                       className="img-bolly"
                     />
                     <h5 id="home-title1">{data.title}</h5>
-                    <p id='mob-desc5' className="blog-desc">{data.description}</p>
+                    <p id="mob-desc5" className="blog-desc">
+                      {data.description}
+                    </p>
                     <p id="blog-date1" className="below-date">
                       <strong>{data.category}</strong> <br />
                       {data.date}
@@ -99,7 +105,7 @@ const Home = () => {
             .map(
               (data, index) =>
                 index < 3 && (
-                  <div key={index} className="aside-div">
+                  <div key={index} id = 'home-aside-in' className="aside-div">
                     {
                       <NavLink className="link" to={`/fitness/${data.id}`}>
                         <img src={data.image} alt="cover" className="img-div" />
@@ -114,7 +120,7 @@ const Home = () => {
             )}
         </aside>
       </div>
-      <div className="ad-home"></div>
+      <div id="home-ad1"></div>
 
       <div id="footer-home" className="footer">
         <small>Copyright &copy; Ravichandra Patil</small>

@@ -33,7 +33,7 @@ const Hollywood = () => {
           </div>
         ))}
 
-      <aside>
+      <aside id="aside-b">
         <h2 className="h2-2">Top Stories</h2>
         <hr className="hr-2" />
         {data
@@ -58,7 +58,7 @@ const Hollywood = () => {
           <strong>Advertisement</strong>
         </div>
       </aside>
-      <div id="footer-home" className="footer">
+      <div id="footer-page" className="footer">
         <small>Copyright &copy; Ravichandra Patil</small>
       </div>
     </div>
