@@ -421,8 +421,8 @@
     }
     #blog-date1{
         color: white;
-        position: relative;
-        top: 130px;
+        position: absolute;
+        top: 435px;
         left: 5vw;
     }
     #bottom-hr1{
