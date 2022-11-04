@@ -10,6 +10,7 @@ const Home = () => {
   const x = [6, 7, 8, 9];
   const y = [10, 11, 12];
 
+  
   return (
     <div>
       <center>
@@ -120,7 +121,7 @@ const Home = () => {
             )}
         </aside>
       </div>
-      <div id="home-ad1"></div>
+      <a href="https://ads.google.com/intl/en_us/home/#!/"><div id="home-ad1"></div></a>
 
       <div id="footer-home" className="footer">
         <small>Copyright &copy; Ravichandra Patil</small>

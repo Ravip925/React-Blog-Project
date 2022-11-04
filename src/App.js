@@ -10,6 +10,7 @@ import Food from './Components/Food';
 import NavBar from './Components/NavBar';
 import Data from './Components/Data';
 import BlogDetail from './Components/Blog-Detail';
+import Error from './Components/Error';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/category/hollywood" element={<Hollywood />} />
           <Route path="/category/fitness" element={<Fitness />} />
           <Route path="/category/food" element={<Food />} />
+          <Route path="/*" element={<Error />} />
 
           
           <Route path="/bollywood/:id" element={<BlogDetail />} />

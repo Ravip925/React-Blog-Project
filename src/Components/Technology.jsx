@@ -26,7 +26,7 @@ const Technology = () => {
               <img src={data.image} alt="cover" className="img-bolly" />
               <h5 id="bolly-h5">{data.title}</h5>
               <p className="blog-desc">{data.description}</p>
-              <p className="below-date">{data.date}</p>
+              <p className="below-date"><strong>{data.date}</strong></p>
               <div className="line-div"></div>
             </NavLink>
           </div>
@@ -53,9 +53,9 @@ const Technology = () => {
                 </div>
               )
           )}
-        <div className="ad">
-          <strong>Advertisement</strong>
-        </div>
+        <a href="https://www.mcdonaldsindia.com/">
+          <div className="ad"></div>
+        </a>
       </aside>
       <div id="footer-page" className="footer">
         <small>Copyright &copy; Ravichandra Patil</small>
